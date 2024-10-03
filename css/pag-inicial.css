@@ -20,12 +20,18 @@ body{
     background: linear-gradient(to right, rgb(252, 238, 213)6%, rgba(160, 222, 231, 1) 75%, rgba(52, 209, 224, 1)100%);
 }
 
+.Items-Container{
+    display: flex;
+    align-items: center;
+    max-width: 1440vw;
+}
+
 .Items-Container li{
     text-decoration: none;
     display: inline-block;
     align-items: center;
     justify-content: flex-start;
-    margin: 60px;
+    margin: 40px;
 }
 
 .Items-Container a{
@@ -43,6 +49,7 @@ body{
     max-width: 86%;
     margin: 0 auto;
     font-family: "Poppins", system-ui;
+    padding-top: 50px;
 }
 
 h1, h2, p{
@@ -64,8 +71,8 @@ p{
 .bnt{
     color: rgb(255, 255, 255);
     background-color: rgba(0, 42, 72, 1);
-    border-radius: 30px;
-    padding:12px;
-    align-items: center;
-
+    border-radius: 12px;
+    padding:5px;
+    height: 45px;
+    margin-left: 29vw;
 }
