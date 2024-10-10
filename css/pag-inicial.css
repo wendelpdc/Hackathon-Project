@@ -127,5 +127,8 @@ p{
     background-color: rgba(247, 219, 167, 1);
     opacity: 100%;
     border-radius: 99px;
+    margin-left: 1000px;
+    transform: rotate(27deg);
+    
 }
 
