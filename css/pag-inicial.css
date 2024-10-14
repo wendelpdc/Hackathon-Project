@@ -23,6 +23,7 @@ body{
     background: linear-gradient(to right, rgb(252, 238, 213)6%, rgba(160, 222, 231, 1) 75%, rgba(52, 209, 224, 1)100%);
     height: 695px;
     border-radius: 0 0 45px 45px;
+    z-index: 3;
 }
 
 
@@ -57,6 +58,8 @@ body{
     margin: 0 auto;
     font-family: "Poppins", system-ui;
     padding-top: 30px;
+    position: relative;
+    z-index: 5;
 }
 
 h1, h2, p{
@@ -82,7 +85,7 @@ p{
     height: 45px;
     font-size: 15px;
 
-    margin-left: 400px;
+    margin-left: 600px;
     padding-left:27px ;
     padding-right: 27px;
 }
@@ -121,14 +124,55 @@ p{
 }
 
 
-.retangulo-1{
-    width: 635px;
-    height: 635px;
+
+.retangulo-3{
+    position:absolute;
+    width: 67.1px;
+    height: 67.1px;
     background-color: rgba(247, 219, 167, 1);
     opacity: 100%;
-    border-radius: 99px;
-    margin-left: 1000px;
-    transform: rotate(27deg);
-    
+    border-radius: 20px;
+    transform: rotate(-25.23deg);
+    top: 150px;
+    left: 133px;
+    z-index: 4;
 }
 
+.retangulo-2{
+    position: absolute;
+    left: 1216px;
+    top: 211.5px;
+    border-radius: 0 0 0 10%;
+}
+
+.retangulo-1{
+    position: absolute;
+    left: 1125px;
+    top: 281.5px;
+    border-radius: 0 0 0 10%;
+}
+
+.mulher-gato{
+    position: absolute;
+    top: 126px;
+    left: 1143px;
+    z-index: 2;
+}
+
+.retangulo-8{
+    position: absolute;
+    top: 602px;
+    left: 120px;
+}
+
+.retangulo-9{
+    position: absolute;
+    top: 0px;
+    right: 1450px;
+    z-index: 1;
+}
+
+.upai{
+    position: absolute;
+    z-index: 6;
+}
