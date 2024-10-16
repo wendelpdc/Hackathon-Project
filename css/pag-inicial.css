@@ -18,36 +18,36 @@ body{
     height: 100%;
 }
 
-.Container-Inicial{
+.Container-Inicial-Desktop{
     background: linear-gradient(to right, rgb(252, 238, 213)6%, rgba(160, 222, 231, 1) 75%, rgba(52, 209, 224, 1)100%);
     height: 695px;
-    border-radius: 0 0 45px 45px;
     z-index: 3;
 }
 
 
-.Items-Container{
+.Items-Container-Desktop{
     display: flex;
     align-items: center;
     margin-left: 145px;
 }
 
-.Items-Container li{
+.Items-Container-Desktop li{
     text-decoration: none;
     display: inline-block;
     margin: 40px;
+ 
 }
 
-.Items-Container a{
+.Items-Container-Desktop a{
     display: flex;
     align-items: center;
     color: rgba(0, 52, 89, 1);
     text-decoration: none;
     font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-left: 40px;
+    margin-left: 120px;
 }
 
-.Text-Container {
+.Text-Container-Desktop {
     color: rgba(0, 42, 72, 1);
     display: flex;
     flex-direction: column;
@@ -56,9 +56,10 @@ body{
     max-width: 86%;
     margin: 0 auto;
     font-family: "Poppins", system-ui;
-    padding-top: 30px;
+    padding-top: 3vh;
     position: relative;
     z-index: 5;
+    padding-bottom: 2vh;
 }
 
 h1, h2, p{
@@ -85,7 +86,7 @@ p{
     font-size: 15px;
     cursor: pointer;
 
-    margin-left: 600px;
+    margin-left: 200px;
     padding-left:27px ;
     padding-right: 27px;
 }
@@ -94,21 +95,20 @@ p{
     background-color: transparent;
     border-radius: 30px;
     height: 45px;
-    font-size: 14px;
+    font-size: 15px;
     font-family: "Poppins", system-ui;
     cursor: pointer;
-
-
 
     padding-left: 39px;
     padding-right: 39px;
     margin-top: 30px;
     margin-left: 136px;
+    z-index: 5;
 }
 
 .ver-intro i{
     margin-left: 10px;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .conheca{
@@ -122,6 +122,7 @@ p{
     padding-left: 39px;
     padding-right: 39px;
     cursor: pointer;
+    z-index: 10;
 }
 .retangulo-3{
     position:absolute;
@@ -132,25 +133,24 @@ p{
     border-radius: 20px;
     transform: rotate(-25.23deg);
     top: 150px;
-    left: 133px;
+    left: 7vw;
     z-index: 4;
 }
 .retangulo-2{
     position: absolute;
-    left: 1216px;
+    left: 65vw;
     top: 211.5px;
-    border-radius: 0 0 0 10%;
 }
 .retangulo-1{
     position: absolute;
-    left: 1125px;
+    left: 60vw;
     top: 281.5px;
     border-radius: 0 0 0 10%;
 }
 .mulher-gato{
     position: absolute;
     top: 126px;
-    left: 1143px;
+    right: 0vw;
     z-index: 2;
 }
 .retangulo-8{
@@ -161,11 +161,11 @@ p{
 .retangulo-9{
     position: absolute;
     top: 0px;
-    right: 1450px;
+    left: 0vw;
     z-index: 1;
 }
 .upai{
     position: absolute;
     z-index: 6;
-    left: 136px;
+    left: 15vh;
 }

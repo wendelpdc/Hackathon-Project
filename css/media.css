@@ -1,11 +1,57 @@
-/*dispositivos móveis*/
-@media (min-width: 320px) and (max-width:480px){}
+@media screen and (max-width:1880px){
+    .Items-Container-Desktop{
+        display: none;
+    }
 
-/*iPads e tablets*/
-@media (min-width:481px) and (max-width:768px){}
+    .Items-Container-Desktop{
+        padding-bottom: 2vh;
+    }
 
-/*telas pequenas, laptops*/
-@media (min-width:769px) and (max-width:1024px){}
+    .ver-intro{
+        margin-left: 7vw;
+    }
 
-/*desktops, telas grandes*/
-@media (min-width:1025px) and (max-width:1200px){}
+}
+
+@media screen and (max-width:1010px){
+    .mulher-gato{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .retangulo-1, .retangulo-2{
+        display: none;
+    }
+
+    h1{
+        font-size: 45px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .ver-intro{
+        margin-left: 8vw;
+        height:35px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 14px;
+    }
+
+    .ver-intro i{
+        font-size: 14px;
+    }
+
+    .conheca{
+        height:35px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 14px;
+    }
+}
