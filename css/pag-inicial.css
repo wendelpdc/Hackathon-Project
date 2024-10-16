@@ -138,12 +138,12 @@ p{
 }
 .retangulo-2{
     position: absolute;
-    left: 65vw;
+    right: 0vw;
     top: 211.5px;
 }
 .retangulo-1{
     position: absolute;
-    left: 60vw;
+    right: 8vw;
     top: 281.5px;
     border-radius: 0 0 0 10%;
 }
@@ -156,7 +156,7 @@ p{
 .retangulo-8{
     position: absolute;
     top: 602px;
-    left: 120px;
+    left: 1vw;
 }
 .retangulo-9{
     position: absolute;

@@ -19,6 +19,16 @@
     }
 }
 
+    @media screen and (max-width:1320px){
+        .retangulo-1{
+            display: none;
+        }
+    
+        .retangulo-2{
+            display: none;
+        }
+    }
+
 @media screen and (max-width: 768px){
     .retangulo-1, .retangulo-2{
         display: none;
