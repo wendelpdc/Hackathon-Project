@@ -1,7 +1,4 @@
 @media screen and (max-width:1880px){
-    .Items-Container-Desktop{
-        display: none;
-    }
 
     .Items-Container-Desktop{
         padding-bottom: 2vh;
@@ -11,9 +8,21 @@
         margin-left: 7vw;
     }
 
+    .retangulo-9{
+        margin-left: -2vw;
+    }
+
+    .upai{
+        margin-left: 0.5vw;
+    }
+
+    .Text-Container-Desktop{
+        padding-top: 4.5vh;
+    }
+
 }
 
-@media screen and (max-width:1010px){
+@media screen and (max-width:1020px){
     .mulher-gato{
         display: none;
     }
@@ -27,23 +36,35 @@
         .retangulo-2{
             display: none;
         }
+
+        .upai{
+            border-radius: 50%;
+        }
     }
 
-@media screen and (max-width: 768px){
-    .retangulo-1, .retangulo-2{
-        display: none;
-    }
-
+@media screen and (max-width:768px){
     h1{
-        font-size: 45px;
+        font-size: 40px;
     }
 
     h2{
-        font-size: 30px;
+        font-size: 27px;
     }
 
     p{
-        font-size: 14px;
+        padding-top: 3vh;
+        font-size: 12px;
+    }
+    }
+
+@media screen and (max-width: 768px){
+
+    .upai{
+        left: 0;
+    }
+
+    .retangulo-9{
+        display: none;
     }
 
     .ver-intro{
@@ -63,5 +84,36 @@
         padding-left: 20px;
         padding-right: 20px;
         font-size: 14px;
+    }
+
+@media screen and (max-width:1120px){
+    .Text-Container-Desktop{
+        padding-top: 14vh;
+    }
+}
+
+@media screen and (max-width:1120px){
+    .retangulo-9{
+        display: none;
+    }
+
+    .upai{
+        position: absolute;
+        left: 37.5vw;
+    }
+
+    .mulher-gato{
+        display: none;
+    }
+}
+}
+
+@media screen and (max-width:1150px){
+    .Items-Container-Desktop{
+        display: none;
+    }
+
+    .Text-Container-Desktop{
+        padding-top: 14vh;
     }
 }

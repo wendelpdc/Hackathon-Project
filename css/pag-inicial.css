@@ -20,8 +20,8 @@ body{
 
 .Container-Inicial-Desktop{
     background: linear-gradient(to right, rgb(252, 238, 213)6%, rgba(160, 222, 231, 1) 75%, rgba(52, 209, 224, 1)100%);
+    width: 100%;
     height: 695px;
-    z-index: 3;
 }
 
 
@@ -34,8 +34,7 @@ body{
 .Items-Container-Desktop li{
     text-decoration: none;
     display: inline-block;
-    margin: 40px;
- 
+    margin-top: 5vh;
 }
 
 .Items-Container-Desktop a{
@@ -44,7 +43,11 @@ body{
     color: rgba(0, 52, 89, 1);
     text-decoration: none;
     font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 120px;
+    margin-left: 7vw;
+}
+
+.Inicio{
+    margin-left: 4vw;
 }
 
 .Text-Container-Desktop {
@@ -54,12 +57,12 @@ body{
     justify-content: flex-start;
     align-items: flex-start;
     max-width: 86%;
-    margin: 0 auto;
     font-family: "Poppins", system-ui;
-    padding-top: 3vh;
+    padding-top: 6.5vh;
     position: relative;
     z-index: 5;
     padding-bottom: 2vh;
+    margin-left: 7vw;
 }
 
 h1, h2, p{
@@ -82,13 +85,16 @@ p{
     color: rgb(255, 255, 255);
     background-color: rgba(0, 42, 72, 1);
     border-radius: 50px;
-    height: 45px;
+    height: 4vh;
     font-size: 15px;
     cursor: pointer;
+    position: absolute;
 
-    margin-left: 200px;
-    padding-left:27px ;
-    padding-right: 27px;
+    margin-top: 5.2vh;
+    right: 3vw;
+    margin-left: 8vw;
+    padding-left:2% ;
+    padding-right: 2%;
 }
 
 .ver-intro{
@@ -132,7 +138,7 @@ p{
     opacity: 100%;
     border-radius: 20px;
     transform: rotate(-25.23deg);
-    top: 150px;
+    top: 15vh;
     left: 7vw;
     z-index: 4;
 }
@@ -162,10 +168,13 @@ p{
     position: absolute;
     top: 0px;
     left: 0vw;
-    z-index: 1;
+    z-index: 0.5;
 }
+
 .upai{
+    display: flex;
     position: absolute;
     z-index: 6;
-    left: 15vh;
+    margin-left: 1vw;
+    left: 13vh;
 }
