@@ -178,3 +178,9 @@ p{
     margin-left: 1vw;
     left: 13vh;
 }
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
